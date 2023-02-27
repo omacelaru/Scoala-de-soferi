@@ -1,0 +1,161 @@
+#antet_global
+{
+	background: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	grid-area: header;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.antet_container
+{
+	box-shadow: 0 1px 2px #888888;
+	display: grid;
+	grid-template-rows: 70% 30%;
+	grid-template-columns: 10% 80% 10%;
+}
+ .antent_principal
+{
+
+	margin: 0 auto;
+	text-align: center;
+	position:relative; 
+	grid-row-start: 1;
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+.logo
+{
+	width:25%;
+	font-size:86px;
+	color: #27251F;
+	position:relative;
+	transition:font-size .1s linear;
+	font-family: 'Arvo', serif;
+
+}
+.meniu_principal
+{
+	margin: 0 auto;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 2;
+
+}
+.meniu_principal a
+{
+    text-shadow: 1px 0 0 transparent;
+    transition: text-shadow .15s ease-in-out;
+    color: #27251F;
+    font-size: 18px;
+	padding: 10px;
+}
+.meniu_principal-nav
+{
+	text-align: center;
+	grid-column-start: 2;
+	grid-column-end: 2;
+
+	
+}
+.meniu
+{
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	list-style: none;
+	text-transform: uppercase;
+}
+.meniu ul
+{
+	position: absolute;
+}
+.meniu a
+{ 
+	transition: color .4s;
+}
+.meniu li
+{
+	padding: 10px;
+	text-align: center;
+}	
+.meniu_extra
+{
+	display: none;
+}
+
+.meniu :hover > ul 
+{
+	z-index: 1;
+	position: absolute;
+	padding: 0;
+	background: #fff;
+	box-shadow: 0px 8px 36px rgb(0 0 0 / 20%);
+	display: block;
+	
+}
+.meniu li:hover > ul li
+{
+	border-bottom: 1px dotted #9079E6;
+	border-radius: 0;
+	text-align: left;
+}
+.meniu li:hover > ul li a 
+{
+
+}
+.meniu li:hover > a,i
+{
+	color: #9079E6;
+
+}
+
+.meniu_extra li
+{
+	float: none;
+	display: list-item;
+	position: relative;
+}
+.meniu li i
+{
+	padding: 2px;
+}
+.meniu_extra li a
+{
+	text-align: left;
+}
+#1 
+{
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+#2 
+{
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+#3 
+{
+	grid-column-start: 3;
+	grid-column-end: 3;
+}
+#4 
+{
+	grid-column-start: 4;
+	grid-column-end: 4;
+}
+#5 
+{
+	grid-column-start: 5;
+	grid-column-end: 5;
+}
+#6 
+{
+	grid-column-start: 6;
+	grid-column-end: 6;
+}

@@ -1,0 +1,62 @@
+.main_global
+{
+	margin-top:15px;
+	margin-bottom: 10px;
+	left: 0;
+	height: 700px;
+}
+
+.main_container
+{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 15% 1fr 80px 1fr 15%;
+}
+.main_info
+{
+	grid-column-start: 2;
+	display: grid;
+	grid-template-rows: 10% 45% 45%;
+}
+.locatie
+{
+	grid-column-start: 4;
+}
+.map 
+{
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+	box-shadow: 3px 3px 5px #9079e6;
+}
+.titlu_info_cotact
+{
+	grid-row-start: 1;
+	text-align: center;
+	margin: auto;
+	font-size: 28px;
+	text-shadow: 3px 3p 4px #9079e6;
+}
+.img_contact
+{
+	text-align: center;
+	grid-row-start: 2;
+}
+.img_contact img 
+{
+	width: 90%;
+	height: 100%;
+	box-shadow: 3px 3px 5px lightgrey;
+}
+.info_contact 
+{
+	grid-row-start: 3;
+}
+.info_contact h4
+{
+	font-size: 24px;
+	margin-left: 50px;
+	margin-bottom: 0;
+	font-family: 'Arvo', serif;
+}

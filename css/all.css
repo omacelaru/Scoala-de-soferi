@@ -1,0 +1,40 @@
+*
+{
+	text-decoration:none;
+	list-style: none;
+	font-family: 'Prompt';
+}
+body
+{
+	margin: 0;
+}
+.loader
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #9079E6;
+	height: 100%;
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.disppear
+{
+	animation: vanish 2s forwards;
+}
+@keyframes vanish
+{
+	100%
+	{
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+.container
+{
+	width: 100vw;
+	height: 100vh;
+	align-items:inherit;
+}

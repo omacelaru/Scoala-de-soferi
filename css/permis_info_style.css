@@ -1,0 +1,87 @@
+.titlu_box
+{
+	grid-row-start: 1;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.specificatii_box
+{
+	grid-row-start: 2;
+}
+.pret_box
+{
+	grid-row-start: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.titlu_box p,hr,h3
+{
+	margin: 5px;
+}
+.intrebare
+{
+	color: #787a7a;
+	font-size: 1.25rem;
+}
+.titlu_box hr
+{
+	width: 80px;
+	border: 1px solid #9079e6;
+}
+.titlu_box h3
+{
+	font-size: 1.75rem;
+}
+.mai_mic
+{
+	color: #787a7a;
+	font-size: 1rem;
+}
+.conditii
+{
+	margin: 0 10px 0 0;
+	padding: 0;
+	grid-row-start: 2;
+	grid-column-start: 1;
+}
+.detalii
+{
+	margin: 0 0 0 10px;
+	padding: 0;
+	grid-row-start: 2;
+	grid-column-start: 2;
+}
+.conditii li 
+{
+	border-bottom: 1px dotted #9079e6;
+	padding: 10px;
+}
+.detalii li 
+{
+	border-bottom: 1px dotted #9079e6;
+	padding: 10px;
+}
+.info_titlu
+{
+	font-size: 1.5rem;
+}
+.pret_box
+{
+	display: inline-flex;
+}
+.pret_box img 
+{
+	box-shadow: 1px 1px 3px lightgray;
+	height: auto;
+}
+.pret_box p 
+{
+	max-width: 30%;
+	font-size: 46px;
+	margin: auto 0 auto 10px;
+	text-shadow: 2px 2px 3px #9079e6;
+}
+i 
+{
+	padding-right: 10px;
+}

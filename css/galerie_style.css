@@ -1,0 +1,25 @@
+.main_global
+{
+  margin: 0 100px;
+}
+
+.main_container
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_container img
+{
+  flex: 1 0 21%; 
+  margin: 5px;
+  width: 10%;
+  max-height: 600px;
+  max-height: auto;
+  box-shadow: 4px 3px 3px lightgray;
+  opacity: 1;
+
+}
+.main_container img:hover
+{
+  opacity: 0.8;
+}
