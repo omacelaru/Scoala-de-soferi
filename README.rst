@@ -1,8 +1,5 @@
 Scoala de soferi
 ========
 
-Site realizat pentru proiectul de atestat din clasa a XII-a cu ajutorul
-
-HTML + CSS + JavaScript
-
+This website is dedicated to providing valuable information and resources for individuals who are interested in getting the driving license.
 
